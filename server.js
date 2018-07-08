@@ -59,6 +59,6 @@ app.put('/im' ,(req,res) =>{
     })
 })
 
-app.listen(3003  , () =>{
+app.listen(process.env.PORT||3002  , () =>{
     console.log("app is running")
 });
